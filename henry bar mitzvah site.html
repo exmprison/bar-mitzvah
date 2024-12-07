@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Henry Tucker's Bar Mitzvah</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background-color: #fdfdfd;
+        }
+
+        header {
+            background: linear-gradient(to right, #6a11cb, #2575fc);
+            color: white;
+            padding: 100px 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 4em;
+            margin: 0;
+            animation: fadeInDown 1s ease-out;
+        }
+
+        header p {
+            font-size: 1.5em;
+            margin-top: 10px;
+            animation: fadeInUp 1s ease-out;
+        }
+
+        .button-container {
+            margin: 40px auto;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            animation: fadeInUp 1s ease-out;
+        }
+
+        .button-container a {
+            text-decoration: none;
+            padding: 15px 30px;
+            background-color: #2575fc;
+            color: white;
+            border-radius: 30px;
+            font-size: 1.2em;
+            transition: all 0.3s ease-in-out;
+        }
+
+        .button-container a:hover {
+            background-color: #0045b5;
+            transform: scale(1.05);
+        }
+
+        .section {
+            padding: 60px 20px;
+            text-align: center;
+        }
+
+        .section h2 {
+            font-size: 2.8em;
+            color: #2575fc;
+            margin-bottom: 20px;
+        }
+
+        .section p {
+            font-size: 1.2em;
+            margin-bottom: 30px;
+        }
+
+        .map-section img {
+            max-width: 80%;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .menu-section ul {
+            list-style: none;
+            padding: 0;
+            max-width: 600px;
+            margin: 0 auto;
+            text-align: left;
+        }
+
+        .menu-section ul li {
+            font-size: 1.2em;
+            margin: 10px 0;
+            padding: 10px;
+            background: #f4f4f4;
+            border-radius: 5px;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        footer {
+            background-color: #f8f9fa;
+            padding: 30px;
+            text-align: center;
+            font-size: 0.9em;
+            color: #666;
+        }
+
+        footer a {
+            color: #2575fc;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        /* Animations */
+        @keyframes fadeInDown {
+            from {
+                opacity: 0;
+                transform: translateY(-30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        .menu-section {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .menu-section h2 {
+            font-size: 2.5em;
+            color: #2575fc;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .menu-section h3 {
+            font-size: 1.8em;
+            color: #333;
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
+
+        .menu-section p {
+            font-size: 1.2em;
+            margin-bottom: 20px;
+        }
+
+        .menu-section ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .menu-section ul li {
+            font-size: 1.2em;
+            margin-bottom: 10px;
+            padding: 10px;
+            background: #f9f9f9;
+            border-left: 5px solid #2575fc;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Henry Tucker's Bar Mitzvah</h1>
+    <p>Celebrate with us on this special day!</p>
+    <p><strong>Time:</strong> 10:30 AM - 12:30 PM</p>
+    <p><strong>Location:</strong> Temple Solel</p>
+    <div class="button-container">
+        <a href="online.pdf" target="_blank">Online Service PDF</a>
+        <a href="https://www.youtube.com/live/QoGKvoiSlrM?si=BekfVtSzhSXKngzr" target="_blank">See Live Stream</a>
+    </div>
+</header>
+
+<section class="section map-section">
+    <h2>Going To The Party?</h2>
+    <p>Join us at the celebration venue. Here's how to find it:</p>
+    <img src="map.jpg" alt="Map to the party location">
+</section>
+<section class="section menu-section">
+  <p><b>From Gorman road:</b></p>
+<ul>
+<li>Turn right onto Foundry Street. You will pass an iron truss bridge on your left, 
+followed by the historic mill.</li>
+<li>Continue past the mill, through the traffic circle, then take a left, hairpin turn 
+onto Washington Street.</li>
+<li>Continue on Washington Street. It will wind left, and then left again when it 
+dead ends to a parking lot where you can park.</li>
+<li>Walk toward Savage Mill, looking for the entrance at the end of the circular 
+driveway. Terrapin Adventures will be on your right.</li>
+<li>Once in the mill, walk past the shops and follow signs for the Great Room.</li>
+</ul>
+</section>
+
+<section class="menu-section">
+    <h2>Bar Mitzvah Menu</h2>
+
+    <h3>Market Display</h3>
+    <p>Stationary display of assorted cheeses and gourmet crackers, fresh garden vegetables, including broccoli, baby carrots, celery, cherry tomatoes, and cucumbers. Served with creamy ranch dip and sliced seasonal fruit.</p>
+
+    <h3>Main Food Stations</h3>
+
+    <h4>Dim Sum Station</h4>
+    <ul>
+        <li>Assorted Asian dumplings steamed tableside.</li>
+        <li>Served with soy, lime soy, Thai chili, and sticky cucumber sauces.</li>
+        <li>Vegetarian and California sushi rolls with pickled ginger and wasabi.</li>
+    </ul>
+
+    <h4>Smoked Beef & Chicken Tacos</h4>
+    <ul>
+        <li>Smoked beef with cilantro, lime, chopped tomatoes, chopped onions, and salsa fresca.</li>
+        <li>Smoked chicken with leaf lettuce, Mexican cheese, garlic cream sauce, and salsa verde.</li>
+    </ul>
+
+    <h4>Sliders Station</h4>
+    <ul>
+        <li>All beef burgers served with dill pickle slices and a splash of signature sauce (no cheese).</li>
+        <li>Brisket sliders.</li>
+        <li>Pit turkey sliders.</li>
+        <li>Condiments include BBQ sauce, horseradish, creamy horseradish, sliced tomatoes, onions, and lettuce.</li>
+        <li>Served with shoestring French fries and ketchup.</li>
+    </ul>
+
+    <h3>Dessert Station - Ice Cream Sundae Bar</h3>
+    <p>Vanilla ice cream served with assorted candy and fruit toppings, chocolate and caramel syrup, whipped cream, and cherries.</p>
+
+    <h3>Coffee Station</h3>
+    <p>Fresh brewed regular and decaf coffee, with hot water for assorted gourmet teas.</p>
+
+    <h3>Hot Chocolate Station</h3>
+    <ul>
+        <li>Toppings include mini marshmallows, whipped cream, peppermint sticks, and chocolate shavings.</li>
+    </ul>
+
+    <h3>Mixer Bar</h3>
+    <ul>
+        <li>Assorted sodas, mixers, fruit juices, bar fruit, and ice.</li>
+        <li>Beer and wine (adults only).</li>
+    </ul>
+</section>
+<footer>
+    <p>Thank you for celebrating Henry Tucker's Bar Mitzvah with us! If you have any questions, feel free to contact us at <a href="mailto:henry.bar.mitzvah@example.com">henry.bar.mitzvah@example.com</a></p>
+</footer>
+
+</body>
+</html>
